@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "arrow-parens": ["error", "as-needed"],
+    "arrow-body-style": "off",
+    "comma-dangle": ["error", "always-multiline"],
+    "func-names": "off",
+    "global-require": "off",
+    "import/no-dynamic-require": "off",
+    "no-param-reassign": "off",
+    "no-prototype-builtins": "off",
+    "no-mixed-operators": ["error", {"allowSamePrecedence": true}],
+    "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"]
+  },
+  "env": {
+    "browser": true
+  }
+}
